@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservas - Hotel el Rincón del Carmen</title>
+  <link rel="stylesheet" href="../styles/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <app-header></app-header>
+  
+  <main>
+    <section class="section">
+      <div class="container">
+        <h1 class="page-title">Reservar Habitación</h1>
+        <booking-search></booking-search>
+        <user-reservations></user-reservations>
+      </div>
+    </section>
+  </main>
+
+  <app-footer></app-footer>
+
+  <script type="module" src="../js/components/header.js"></script>
+  <script type="module" src="../js/components/footer.js"></script>
+  <script type="module" src="../js/components/booking-search.js"></script>
+  <script type="module" src="../js/components/user-reservations.js"></script>
+</body>
+</html>

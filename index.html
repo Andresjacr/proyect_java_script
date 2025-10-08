@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel el Rincón del Carmen - Cartagena</title>
+  <!-- Updated CSS path for root location -->
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <app-header></app-header>
+  
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Hotel del Carmen</h1>
+        <p>Experiencia única de Cartagena</p>
+        <!-- Updated link to pages folder -->
+        <a href="pages/reservas.html" class="btn btn-primary">Reservar Ahora</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Nuestras Habitaciones</h2>
+        <room-carousel></room-carousel>
+      </div>
+    </section>
+
+    <section class="section bg-light">
+      <div class="container">
+        <h2 class="section-title">Áreas del Hotel</h2>
+        <div class="areas-grid">
+          <div class="area-card">
+            <!-- Updated image paths for root location -->
+            <img src="public/hotel-lobby-reception.jpg" alt="Lobby y Recepción">
+            <h3> Recepción</h3>
+            <p>Espacio elegante y acogedor para tu llegada</p>
+          </div>
+          <div class="area-card">
+            <img src="public/hotel-pool-area.jpg" alt="Área de Piscina">
+            <h3>Piscina</h3>
+            <p>Relájate en nuestra piscina con vista panorámica</p>
+          </div>
+          <div class="area-card">
+            <img src="public/hotel-garden-terrace.jpg" alt="Jardín y Terraza">
+            <h3>Jardín & Terraza</h3>
+            <p>Espacios verdes para tu descanso</p>
+          </div>
+        </div>
+      </div>
+      
+      <style> 
+        
+      </style>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Nuestros Servicios</h2>
+        <div class="services-grid">
+          <div class="service-card">
+            <img src="public/hotel-restaurant-dining.jpg" alt="Restaurante">
+            <h3>Restaurante</h3>
+            <p>Gastronomía local </p>
+          </div>
+          <div class="service-card">
+            <img src="public/hotel-spa-wellness.jpg" alt="Spa">
+            <h3>Spa y Wellness</h3>
+            <p>Tratamientos de relajación y belleza</p>
+          </div>
+          <div class="service-card">
+            <img src="public/hotel-jacuzzi-sauna.jpg" alt="Áreas Húmedas">
+            <h3>Áreas Húmedas</h3>
+            <p>Jacuzzi, sauna y baño turco</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <app-footer></app-footer>
+
+  <!-- Updated script paths for root location -->
+  <script type="module" src="js/components/header.js"></script>
+  <script type="module" src="js/components/footer.js"></script>
+  <script type="module" src="js/components/room-carousel.js"></script>
+</body>
+</html>
