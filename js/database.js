@@ -34,7 +34,7 @@ class Database {
           maxPeople: 2,
           pricePerNight: 450000,
           amenities: ["WiFi", "Minibar", "Jacuzzi", 'TV 55"', "Balcón", "Room Service"],
-          image: "public/presidential-suite-luxury-hotel.jpg",
+          image: "../imgs/suit_presidencial.jpg",
           active: true,
         },
         {
@@ -45,7 +45,7 @@ class Database {
           maxPeople: 2,
           pricePerNight: 280000,
           amenities: ["WiFi", "Minibar", 'TV 43"', "Aire Acondicionado"],
-          image: "public/luxury-hotel-suite-bedroom.jpg",
+          image: "../imgs/otraHabitacion.jpg",
           active: true,
         },
         {
@@ -56,7 +56,7 @@ class Database {
           maxPeople: 4,
           pricePerNight: 350000,
           amenities: ["WiFi", 'TV 43"', "Aire Acondicionado", "Cafetera"],
-          image: "public/family-hotel-room-two-beds.jpg",
+          image: "../imgs/habitacionFamiliar.jpeg",
           active: true,
         },
       ]

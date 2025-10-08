@@ -5,17 +5,17 @@
 }
 
 :root {
-  --color-primary: #8ac15c;
-  --color-primary-dark: #66a848;
-  --color-secondary: #7a9b7e;
-  --color-secondary-dark: #5f7d62;
-  --color-background: #b0fdb7;
-  --color-surface: #effce7;
+  --color-primary: #c9af60;
+  --color-primary-dark: #293047;
+  --color-secondary: #7986c2;
+  --color-secondary-dark: #3a7a40;
+  --color-background: #b4e1e9;
+  --color-surface: #ccf0ee;
   --color-text: #2d2d2d;
   --color-text-light: #6b6b6b;
-  --color-border: #dee5dc;
-  --color-error: #d64545;
-  --color-success: #4caf50;
+  --color-border: #dcdde5;
+  --color-error: #45b4d6;
+  --color-success: #4c56af;
 
   /* Typography */
   --font-heading: "Playfair Display", serif;
@@ -155,14 +155,14 @@ img {
 }
 
 .btn-danger:hover {
-  background-color: #b83838;
+  background-color: #38a9b8;
 }
 
 /* Hero Section */
 .hero {
   height: 70vh;
   min-height: 500px;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../public/luxury-hotel-suite-bedroom.jpg")
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../imgs/cartagena.jpg")
     center / cover;
   display: flex;
   align-items: center;
