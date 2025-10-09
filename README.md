@@ -44,6 +44,7 @@ estructura de el codigo
 
 JAVASCRIPTPROYECTOMAIN/
 │
+
 ├── imgs/
 │   ├── jakuzzi.webp
 │   ├── otraHabitacion.jpg
@@ -54,6 +55,7 @@ JAVASCRIPTPROYECTOMAIN/
 │   ├── suit_presidencial.jpg
 │   ├── zonas_verdes.jpg
 │
+
 ├── js/
 │   ├── components/
 │   ├── pages/
