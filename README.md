@@ -42,33 +42,3 @@ Juan Andrés Cogollo Rodríguez
 
 estructura de el codigo 
 
-JAVASCRIPTPROYECTOMAIN/
-│
-
-├── imgs/
-│   ├── jakuzzi.webp
-│   ├── otraHabitacion.jpg
-│   ├── piscina.jpg
-│   ├── recepcion.jpg
-│   ├── restaurante.jpg
-│   ├── spa.webp
-│   ├── suit_presidencial.jpg
-│   ├── zonas_verdes.jpg
-│
-
-├── js/
-│   ├── components/
-│   ├── pages/
-│   │   └── admin/
-│   │       ├── admin.html
-│   │       ├── list_users.html
-│   │       ├── reservas.html
-│   │       └── contacto.html
-│   ├── auth.js
-│   ├── database.js  ← (este archivo usa las imágenes)
-│   └── utils.js
-│
-├── styles/
-│   └── main.css
-│
-├── index.html
