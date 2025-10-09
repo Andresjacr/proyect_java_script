@@ -40,5 +40,5 @@ O abre el archivo index.html en tu navegador para pruebas rápidas.
 
 Juan Andrés Cogollo Rodríguez
 
-estructura de el codigo 
+URL:// hotelrimcondelcarmen.netlify.app
 
